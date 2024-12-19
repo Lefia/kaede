@@ -1,0 +1,15 @@
+[project]
+name = "資料科學導論-期末專案 紅葉預測"
+version = "0.1.0"
+description = "用機器學習分析來自日本氣象廳的氣象數據，觀察如日照、濕度、溫度等環境條件與楓葉變色時間之間的關聯性。"
+channels = ["conda-forge"]
+platforms = ["linux-64", "win-64"]
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=2.2.3,<3"
+requests = ">=2.32.3,<3"
+ipykernel = ">=6.29.5,<7"
+geopy = ">=2.4.1,<3"
