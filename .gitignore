@@ -3,3 +3,4 @@ data/weather
 # pixi environments
 .pixi
 *.egg-info
+myenv/
